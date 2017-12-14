@@ -1,0 +1,6 @@
+nbproject/*
+dist/*
+node_modules/*
+composer.lock
+package-lock.json
+*.log

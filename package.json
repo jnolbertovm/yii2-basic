@@ -1,0 +1,31 @@
+{
+  "name": "nolbertovilchez-yii2-base",
+  "version": "1.0.0",
+  "description": "Proyecto Base para las aplicaciones",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp init"
+  },
+  "author": "José Nolberto Vilchez Moreno <jnolbertovm@gmail.com>",
+  "license": "LGPL",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-if": "^2.0.2",
+    "gulp-php-minify": "^0.1.3",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-scss": "^1.4.0",
+    "gulp-typescript": "^3.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "typescript": "^2.5.3"
+  }
+}

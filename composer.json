@@ -1,0 +1,43 @@
+{
+    "name": "nolbertovilchez/yii2-basic",
+    "description": "Proyecto Base para las aplicaciones",
+    "type": "project",
+    "license": "LGPL",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "nolbertovilchez/yii2-theme-espire": "^1.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "^2.0",
+        "yiisoft/yii2-debug": "^2.0",
+        "nolbertovilchez/yii2-gii": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "José Nolberto Vilchez Moreno",
+            "email": "jnolbertovm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "process-timeout": 1800,
+        "vendor-dir": "dist/vendor"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "php mkdir.php",
+            "npm install"
+        ]
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "dist/vendor/npm",
+            "bower-asset-library": "dist/web/static/third_party"
+        },
+        "installer-paths": {
+            "dist/web/static/third_party/{$name}4": ["twbs/bootstrap"],
+            "dist/vendor/bower/{$name}": ["bower-asset/bootstrap"]
+        }
+    }
+}
